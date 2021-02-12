@@ -39,13 +39,13 @@ const HeaderDetailComponent = ({ currentMonth = new Date(), setCurrentMonth = ()
     const dateFormat = "MMMM yyyy";
     return (
         <HeaderWrapper className='fontSize-12'>
-            <TodayRectangle>
+            <TodayRectangle className='img-container'>
                 <img src="./icon-next-date.png"
                     srcSet="./icon-next-date@2x.png 2x,
                             ./icon-next-date@3x.png 3x"
                 /> Today
             </TodayRectangle>
-            <MonthDetailWrapper>
+            <MonthDetailWrapper className='month-container'>
                 <div style={{
                     display: 'flex',
                     alignItems: 'center',

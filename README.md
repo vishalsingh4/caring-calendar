@@ -5,10 +5,10 @@
     - date-fns (managing date related stuffs)
     - Styled components (styling react components)
     - Material UI (fonts, styles and UI components)
-    - Zest/Enzyme (unit testing)
+    - Zest/Enzyme/Enzyme-Adapter-React-16 (unit testing)
 
 ## To Run the application
     - npm install
     - npm start (port 3000)
-    - npm test (measure unit test)
+    - npm test (running unit test cases)
     - npm build (build the application)
